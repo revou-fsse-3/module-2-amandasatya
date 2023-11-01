@@ -1,19 +1,4 @@
-section {
-    /* margin: 10px; */
-    height: 85vh;
-  }
-  .quote {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-  
-    &.quote h1 {
-      color: white;
-      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      text-shadow: goldenrod 0px 0 20px;
-    }
-  }
+
   .newsflex {
     display: flex;
     justify-content: center;
@@ -132,7 +117,9 @@ section {
         grid-template-areas: 
         "tes2 tes2 "
         "tes2 tes2 "
-        "tes4 tes3 ";
+        "tes4 tes3 "
+        "tes4 tes3 "
+        "tes5 tes5";
         gap: 5px;
       }
       .tes1  {
@@ -174,7 +161,7 @@ section {
         border: none;
         border-radius: 5%;
       }
-      .tes1,.tes5,.tes6{
+      .tes1,.tes6{
         display: none;
       }
   }
