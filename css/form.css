@@ -26,24 +26,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 300px;
+    max-width: 400px;
     margin: 5px;
     padding: 20px;
     background-color: lightslategrey;
-    border: 1px solid white;
+    border: auto solid white;
     border-radius: 5px;
     & .form1 {
         display: flex;
         flex-direction: column;
-        margin: 10px 0;
+        margin: 10px auto;
     }
 }
-  
-
   input {
     padding: 10px;
     border: 1px solid black;
     border-radius: 3px;
+    margin: auto;
   }
   select {
     padding: 10px;
@@ -62,4 +61,28 @@
   
   button:hover {
     background-color: goldenrod;
+  }
+  @media (max-width: 768px) {
+    .signup-form2 {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 5px;
+    padding: 20px;
+    background-color: lightslategrey;
+    border: auto solid white;
+    border-radius: 5px;
+    & .form1 {
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    }
+    .logo h2 {
+      display:flex;
+    }
+    .logo img{
+      display: none;
+    }
   }
