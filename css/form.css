@@ -97,9 +97,9 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      max-width: 500px;
+      max-width: auto;
       height: auto;
-      margin: 5px;
+      margin: 10px;
       padding: 20px;
       background-color: lightslategrey;
       border: auto solid white;
@@ -107,11 +107,51 @@
       .form1 {
           display: flex;
           flex-direction: column;
-          margin: 10px auto;
+          margin: 10px 20;
       }
     }
     .logo h2 {
       display:flex;
+    }
+    .logo img{
+      display: none;
+    }
+  }
+  @media (max-width: 350px) {
+    .quote {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+    
+      &.quote h1 {
+        color: white;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: goldenrod 0px 0 20px;
+      }
+    }
+    .signup-form2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: auto;
+      height: auto;
+      margin: 10px;
+      padding: 20px;
+      background-color: lightslategrey;
+      border: auto solid white;
+      border-radius: 5px;
+      .form1 {
+          display: flex;
+          flex-direction: column;
+          margin: 10px 20;
+          justify-content: center;
+          align-items: center;
+      }
+    }
+    .logo h2 {
+      display: none;
     }
     .logo img{
       display: none;
