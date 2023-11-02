@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="./css/slider.css" />
     <link rel="stylesheet" href="./css/section.css" />
     <link rel="stylesheet" href="./css/form.css" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap");
-    </style>
   </head>
   <body>
     <header>
@@ -43,18 +40,26 @@
               </a>
             </div>
             <div class="tes2">
-              <a href="#"><img src="./assets/1.png" alt="" /> </a>
+              <img src="./assets/1.png" alt="" />
               <h2>Welcome to Chess Academy</h2>
             </div>
             <div class="tes3">
-              <a href="#"><img src="./assets/2.png" alt="" /> </a>
+              <a href="#"
+                ><img src="./assets/magnus.jpeg" alt="magnus charlsen" />
+                <h2>Magnus Charlsen</h2></a
+              >
             </div>
             <div class="tes4">
-              <a href="#"><img src="./assets/2.png" alt="" /> </a>
+              <a href="#"
+                ><img src="./assets/botez.jpeg" alt="alexandra botez" />
+                <h2>Alexsandra Botez</h2></a
+              >
             </div>
             <div class="tes5">
-              <a href="#"><img src="./assets/2.png" alt="" /></a>
-              <h2>Lorem ipsum dolor sit amet.</h2>
+              <a href="#"
+                ><img src="./assets/nakamura.jpeg" alt="hikaru nakamura" />
+                <h2>Hikaru nakamura</h2></a
+              >
             </div>
             <div class="tes6">
               <a href="#"
@@ -74,26 +79,29 @@
       <section2>
         <div class="signupHeight">
           <div class="signup-form1">
-            <div class="signup-form2">
+            <form class="signup-form2">
               <div class="form1">
                 <label for="name">Name:</label>
-                <input type="text" placeholder="Enter your name" />
+                <input type="text" placeholder="Enter your name" required />
               </div>
               <div class="form1">
                 <label for="email">Email:</label>
-                <input type="email" placeholder="Enter your email" />
+                <input type="email" placeholder="Enter your email" required />
               </div>
               <div class="form1">
                 <label for="password">Password:</label>
-                <input type="password" placeholder="Enter your password" />
+                <input
+                  type="password"
+                  placeholder="Enter your password"
+                  required
+                />
               </div>
               <div class="form1">
                 <label for="date">Birth Of Date</label>
-                <input type="date" />
+                <input type="date" required />
               </div>
               <button type="submit">Sign Up</button>
-            </div>
-
+            </form>
             <div class="logo">
               <h2>Chess Club Sign Up Form</h2>
               <img src="./assets/1.png" alt="" />

@@ -1,1 +1,24 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/DUj7T_Sj)
+## Module-2 Assignment Checklist
+
+- [v] Responsive Image
+
+  - [v] implement contain or cover
+  - [v] implement image srcset
+
+- [v] Responsive asymmetrical layout
+- [v] Implement date input
+- [v] Font customization
+
+  - [v] using @font-face
+  - [v] using text-shadow
+  - [v] using list-style
+
+- [v] Responsive animation and transition
+
+  - [v] using @keyframes
+  - [v] using transition
+  - [v] responsive
+
+- [ ] Documenting deployment
+- [ ] Connect Netlify to Github
+- [ ] Using custom domain
