@@ -1,0 +1,6 @@
+body {
+    background-image: url("../assets/10.jpg");
+    background-color: transparent;
+    background-repeat: repeat;
+    object-fit: cover;
+}
