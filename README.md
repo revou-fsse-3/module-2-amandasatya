@@ -1,5 +1,7 @@
 ## Module-2 Assignment Checklist
 
+module 2 c1 : https://main--inquisitive-zuccutto-5c2411.netlify.app/
+
 - [x] Responsive Image
 
   - [x] implement contain or cover
