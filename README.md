@@ -1,4 +1,5 @@
 cek Journey saya di revou : https://654462b0e6c31633bba53e34--gregarious-griffin-987720.netlify.app/
+latest module (module 2 ch.1) : https://main--inquisitive-zuccutto-5c2411.netlify.app/
 
 # Amanda satya nugraha
 
@@ -8,8 +9,7 @@ cek Journey saya di revou : https://654462b0e6c31633bba53e34--gregarious-griffin
 
 ## My bio
 
-https://github.com/revou-fsse-3/module-1-amandasatya.git
-halo perkenalkan namaq saya **amanda satya nugraha** biasa dipanggil manda atau satya.
+halo perkenalkan nama saya **amanda satya nugraha** biasa dipanggil manda atau satya.
 
 saat ini pekerjaan saya wirausaha, dan saya berencana untuk career switching untuk menjadi full stack programer.
 
