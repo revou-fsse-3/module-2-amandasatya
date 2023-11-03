@@ -1,26 +1,27 @@
-## Module-2 Assignment Checklist
+cek Journey saya di revou : https://654462b0e6c31633bba53e34--gregarious-griffin-987720.netlify.app/
 
-module 2 c1 : https://main--inquisitive-zuccutto-5c2411.netlify.app/
+# Amanda satya nugraha
 
-- [x] Responsive Image
+> assignment checklist 1
 
-  - [x] implement contain or cover
-  - [x] implement image srcset
+![amanda satya](./assets/aset%20porto/profile.png)
 
-- [x] Responsive asymmetrical layout
-- [x] Implement date input
-- [x] Font customization
+## My bio
 
-  - [x] using @font-face
-  - [x] using text-shadow
-  - [x] using list-style
+https://github.com/revou-fsse-3/module-1-amandasatya.git
+halo perkenalkan namaq saya **amanda satya nugraha** biasa dipanggil manda atau satya.
 
-- [x] Responsive animation and transition
+saat ini pekerjaan saya wirausaha, dan saya berencana untuk career switching untuk menjadi full stack programer.
 
-  - [x] using @keyframes
-  - [x] using transition
-  - [x] responsive
+#Hobby
 
-- [ ] Documenting deployment
-- [ ] Connect Netlify to Github
-- [ ] Using custom domain
+1. catur
+2. jalan-jalan
+3. ngulik apapun
+
+# My links
+
+1. linkedin : www.linkedin.com/in/satya-amanda
+2. netlify (week 1) : https://6530b2e490921b6726603637--amandasatya.netlify.app/
+3. module1 final : https://654462b0e6c31633bba53e34--gregarious-griffin-987720.netlify.app/
+4. module 2 c1 : https://main--inquisitive-zuccutto-5c2411.netlify.app/
