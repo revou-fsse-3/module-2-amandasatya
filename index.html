@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="./css/slider.css" />
     <link rel="stylesheet" href="./css/section.css" />
     <link rel="stylesheet" href="./css/form.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <!--start nav-->
       <nav class="nav1">
-        <img class="logo" src="./assets/logo.png" alt="" />
+        <img class="logo" src="./assets/logo.png" alt="logoChessAcademy" />
         <div class="nav2">
           <a href="#">Home</a>
           <a href="#">Strategy</a>
@@ -44,22 +45,37 @@
               <h2>Welcome to Chess Academy</h2>
             </div>
             <div class="tes3">
-              <a href="#"
-                ><img src="./assets/magnus.jpeg" alt="magnus charlsen" />
-                <h2>Magnus Charlsen</h2></a
-              >
+              <picture>
+                <source
+                  media="(max-width: 768px)"
+                  srcset="./assets/irene.jpeg"
+                />
+                <img src="./assets/magnus.jpeg" alt="Magnus" />
+              </picture>
+              <h2>Magnus Charlsen</h2>
+              <h3>Irene Sukandar</h3>
             </div>
             <div class="tes4">
-              <a href="#"
-                ><img src="./assets/botez.jpeg" alt="alexandra botez" />
-                <h2>Alexsandra Botez</h2></a
-              >
+              <picture>
+                <source
+                  media="(max-width: 768px)"
+                  srcset="./assets/queen.jpeg"
+                />
+                <img src="./assets/botez.jpeg" alt="alexandra botez" />
+              </picture>
+              <h2>Alexandra Botez</h2>
+              <h3>Queen Gambit</h3>
             </div>
             <div class="tes5">
-              <a href="#"
-                ><img src="./assets/nakamura.jpeg" alt="hikaru nakamura" />
-                <h2>Hikaru nakamura</h2></a
-              >
+              <picture>
+                <source
+                  media="(max-width: 768px)"
+                  srcset="./assets/andreabotez.webp"
+                />
+                <img src="./assets/nakamura.jpeg" alt="Hikaru nakamura" />
+              </picture>
+              <h2>Hikaru Nakamura</h2>
+              <h3>Andrea Botez</h3>
             </div>
             <div class="tes6">
               <a href="#"
@@ -97,21 +113,37 @@
                 />
               </div>
               <div class="form1">
-                <label for="date">Birth Of Date</label>
+                <label for="date">Birth Of Date :</label>
                 <input type="date" required />
               </div>
               <button type="submit">Sign Up</button>
             </form>
             <div class="logo">
               <h2>Chess Club Sign Up Form</h2>
-              <img src="./assets/1.png" alt="" />
+              <img src="./assets/1.png" alt="chessAcademyLogo" />
             </div>
           </div>
         </div>
       </section2>
       <!--end signup-->
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="footerChess">
+        <div>
+          <h3>Chess Academy 2023</h3>
+        </div>
+        <div class="address">
+          <h2>Address :</h2>
+          <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
+        </div>
+        <div class="socialMedia">
+          <h2>Social Media:</h2>
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">Tiktok</a>
+        </div>
+      </div>
+    </footer>
     <script src="/module-2-amandasatya/index.js"></script>
   </body>
 </html>

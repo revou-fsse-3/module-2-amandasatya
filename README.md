@@ -1,23 +1,23 @@
 ## Module-2 Assignment Checklist
 
-- [v] Responsive Image
+- [x] Responsive Image
 
-  - [v] implement contain or cover
-  - [v] implement image srcset
+  - [x] implement contain or cover
+  - [x] implement image srcset
 
-- [v] Responsive asymmetrical layout
-- [v] Implement date input
-- [v] Font customization
+- [x] Responsive asymmetrical layout
+- [x] Implement date input
+- [x] Font customization
 
-  - [v] using @font-face
-  - [v] using text-shadow
-  - [v] using list-style
+  - [x] using @font-face
+  - [x] using text-shadow
+  - [x] using list-style
 
-- [v] Responsive animation and transition
+- [x] Responsive animation and transition
 
-  - [v] using @keyframes
-  - [v] using transition
-  - [v] responsive
+  - [x] using @keyframes
+  - [x] using transition
+  - [x] responsive
 
 - [ ] Documenting deployment
 - [ ] Connect Netlify to Github
