@@ -1,0 +1,82 @@
+.container {
+    display: relative;
+}
+.container .container-wrapper {
+    width: 45vw;
+    height: 50vh;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    margin: 5rem auto;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.container .wrapper {
+    display:grid;
+    grid-template-columns: repeat(4, 100%);
+    height: 100%;
+    width: 100%;
+    animation: slider 30s ease-in-out infinite alternate;
+}
+.container #sliderimage1 {
+    background-image: url('../assets/1.png');
+    background-position:center;
+    background-size: cover; 
+    position: relative; 
+    
+}
+.container #sliderimage2 {
+    background-image: url('../assets/andreabotez.webp');
+    background-position:center;
+    background-size:cover; 
+    position: relative; 
+
+}
+.container #sliderimage3 {
+    background-image: url('../assets/irene.jpeg');
+    background-position: center;
+    background-size: cover; 
+    position: relative; 
+
+}
+.container #sliderimage4 {
+    background-image: url('../assets/magnus.jpeg');
+    background-position: center;
+    background-size: cover; 
+    position: relative; 
+
+}
+.container .button-wrapper .buttonslider {
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: .3rem;
+}
+.container .button-wrapper {
+    position: absolute; 
+    bottom: 320px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.buttonslider:hover {
+    box-shadow: 0 0 5px red;
+}
+@keyframes slider {
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    70%{transform: translateX(-300%);}
+    80%{transform: translateX(-300%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);}
+}

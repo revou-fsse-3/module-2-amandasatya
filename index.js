@@ -1,4 +1,4 @@
-const menuToggle = document.getElementById('hamburgerMenu');
+const menuToggle = document.querySelector('.hamburger');
 const nav = document.querySelector('.nav2');
 
 menuToggle.addEventListener('click', () => {
@@ -8,7 +8,7 @@ menuToggle.addEventListener('click', () => {
 
 const body = document.body;
 const changeModeButton = document.getElementById('change-mode');
-const themeStyle = document.getElementById('darkModeWhiteMode');
+const themeStyle = document.getElementById('themeStyle');
 
 const isDarkMode = localStorage.getItem('darkMode') === 'true';
 
@@ -27,11 +27,11 @@ changeModeButton.addEventListener('click', () => {
     if (isDarkMode) {
         themeStyle.setAttribute('href', './css/navbar.css');
         changeModeButton.textContent = 'Day Mode';
-        localStorage.setItem('darkMode', 'true'); // Save the mode preference
+        localStorage.setItem('darkMode', 'true');
     } else {
         themeStyle.setAttribute('href', './css/whitemode.css');
         changeModeButton.textContent = 'Dark Mode';
-        localStorage.setItem('darkMode', 'false'); // Save the mode preference
+        localStorage.setItem('darkMode', 'false');
     }
 });
 

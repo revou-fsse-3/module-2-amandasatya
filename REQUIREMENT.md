@@ -22,5 +22,5 @@ module 2 c1 : https://main--inquisitive-zuccutto-5c2411.netlify.app/
   - [x] responsive
 
 - [ ] Documenting deployment
-- [ ] Connect Netlify to Github
+- [x] Connect Netlify to Github
 - [ ] Using custom domain

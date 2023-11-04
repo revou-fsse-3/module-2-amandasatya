@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chess academy</title>
     <link rel="stylesheet" href="./css/navbar.css" />
-    <link rel="stylesheet" href="./css/whitemode.css" id="darkModeWhiteMode" />
+    <link rel="stylesheet" href="./css/whitemode.css" id="themeStyle" />
     <link rel="stylesheet" href="./css/slider.css" />
     <link rel="stylesheet" href="./css/section.css" />
     <link rel="stylesheet" href="./css/form.css" />
@@ -25,7 +25,10 @@
           <a href="#">Strategy</a>
           <a href="#">Watch</a>
           <a href="#">Sign In</a>
-          <button id="change-mode">Dark Mode</button>
+        </div>
+        <div class="buttonSwitch">
+          <h2>Switch to :</h2>
+          <button class="buttonChange" id="change-mode">Dark Mode</button>
         </div>
         <div class="hamburger" id="hamburgerMenu">
           <div class="bar"></div>
@@ -36,7 +39,23 @@
       <!--end nav-->
     </header>
     <main>
-      <introPage class="introBody"> </introPage>
+      <!--slider-->
+      <div class="container">
+        <div class="container-wrapper">
+          <div class="wrapper">
+            <div id="sliderimage1"></div>
+            <div id="sliderimage2"></div>
+            <div id="sliderimage3"></div>
+            <div id="sliderimage4"></div>
+          </div>
+        </div>
+        <div class="button-wrapper">
+          <a href="#sliderimage1" class="buttonslider"></a>
+          <a href="#sliderimage2" class="buttonslider"></a>
+          <a href="#sliderimage3" class="buttonslider"></a>
+          <a href="#sliderimage4" class="buttonslider"></a>
+        </div>
+      </div>
       <!--news grid-->
       <section>
         <div class="newsflex">
@@ -119,8 +138,9 @@
                 />
               </div>
               <div class="form1">
-                <label for="date">Birth Of Date :</label>
-                <input type="date" required />
+                <label for="date"
+                  >Birth Of Date : <input type="date" name="date" required
+                /></label>
               </div>
               <button type="submit">Sign Up</button>
             </form>
