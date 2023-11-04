@@ -21,6 +21,12 @@ module 2 c1 : https://main--inquisitive-zuccutto-5c2411.netlify.app/
   - [x] using transition
   - [x] responsive
 
+advance task
+
+- [x] Slider without js
+- [x] light house above 90% accessbility and SEO
+- [x] Dark Mode Light Mode
+
 - [ ] Documenting deployment
 - [x] Connect Netlify to Github
 - [ ] Using custom domain

@@ -50,8 +50,12 @@ body {
   }
   .buttonSwitch {
     display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     gap: 10px;
+    font-size: 13px;
+     
   }
   .buttonChange  {
     padding: 10px;

@@ -1,4 +1,3 @@
-cek Journey saya di revou : https://654462b0e6c31633bba53e34--gregarious-griffin-987720.netlify.app/
 latest module (module 2 ch.1) : https://main--inquisitive-zuccutto-5c2411.netlify.app/
 
 # Amanda satya nugraha
