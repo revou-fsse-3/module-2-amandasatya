@@ -1,6 +1,8 @@
 ## Module-2 Assignment Checklist
 
-module 2 c1 : https://main--inquisitive-zuccutto-5c2411.netlify.app/
+website for module 2 : [here](https://amandasatya.my.id/)
+
+module 2 c1 : [here](https://eloquent-semifreddo-641449.netlify.app/)
 
 - [x] Responsive Image
 
@@ -27,6 +29,6 @@ advance task
 - [x] light house above 90% accessbility and SEO
 - [x] Dark Mode Light Mode
 
-- [ ] Documenting deployment
+- [x] Documenting deployment
 - [x] Connect Netlify to Github
-- [ ] Using custom domain
+- [x] Using custom domain
