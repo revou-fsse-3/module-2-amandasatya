@@ -1,4 +1,6 @@
-latest module (module 2 ch.1) : https://main--inquisitive-zuccutto-5c2411.netlify.app/
+website for module 2 : [here](https://amandasatya.my.id/)
+
+module 2 c1 : [here](https://eloquent-semifreddo-641449.netlify.app/)
 
 # Amanda satya nugraha
 
