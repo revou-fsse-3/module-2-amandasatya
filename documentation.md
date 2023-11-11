@@ -1,6 +1,6 @@
-Documentation untuk connect dari netlify ke custom domain
+Documentation to connect custom domain from netlify
 
-1. register di netlify
+1. register netlify
    ![register](./assets/documentation/1.png)
 2. add newsite dan import from github
    ![import an existing project](./assets/documentation/2.png)
